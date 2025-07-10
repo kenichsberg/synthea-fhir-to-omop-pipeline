@@ -5,7 +5,7 @@ The dataset used is publically available as **Childhood Obesity - Synthetic Denv
 
 ---
 
-## Architecture Overview
+## Pipeline
 
 ```mermaid
 graph LR
