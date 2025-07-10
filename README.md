@@ -74,5 +74,5 @@ graph LR
 - **Analytics** <br/>
   Target survey:<br/>
     **Does early antibiotic exposure vs no exposure during infancy increase the risk of childhood obesity?<br/>**
-  [SQL](https://github.com/kenichsberg/synthea-fhir-to-omop-pipeline/blob/main/notebooks/4.omop_to_result.ipynb)
+  [Result](https://github.com/kenichsberg/synthea-fhir-to-omop-pipeline/blob/main/notebooks/4.omop_to_result.ipynb)
   
