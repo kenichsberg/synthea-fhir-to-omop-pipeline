@@ -27,14 +27,20 @@ graph LR
 ## Data Format Conversion Flow
 
 - **FHIR Bundle**<br/>
-    A set of FHIR resources gathered into a JSON object
+    A set of different FHIR resources gathered into a JSON object
   ```json
   {
       "resourceType": "Bundle",
       "type": "transaction",
       "entry": [
-          {"resourceType": "Patient", ...},
-          {"resourceType": "Observation", ...},
+          {
+              "resource": {"resourceType": "Patient", ...},
+              ...
+          },
+          {
+              "resource": {"resourceType": "Observation", ...},
+              ...
+          },
           ... more resources
       ]
   }
